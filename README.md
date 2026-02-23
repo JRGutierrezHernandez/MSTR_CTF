@@ -1,4 +1,5 @@
 # 🖥️ Monitor del Sistema en Tiempo Real (Python + Web)
+<img width="847" height="310" alt="Captura de pantalla 2026-02-23 043453" src="https://github.com/user-attachments/assets/83f88a39-9862-4726-8c26-7697cf19af64" />
 
 Aplicación web que muestra el uso del sistema en tiempo real (CPU y memoria RAM) utilizando un backend en Python con ejecución concurrente mediante hilos.
 
