@@ -4,9 +4,10 @@ Aplicación web que muestra el uso del sistema en tiempo real (CPU y memoria RAM
 
 El sistema obtiene información real del equipo y la muestra en un panel web que se actualiza automáticamente cada segundo.
 
-🚀 Características
+## 🚀 Características
 
 ✔ Monitoreo en tiempo real del CPU
+
 ✔ Monitoreo en tiempo real de la memoria RAM
 ✔ Backend en Python con Flask
 ✔ Uso de hilos (threading) para monitoreo continuo
@@ -15,7 +16,7 @@ El sistema obtiene información real del equipo y la muestra en un panel web que
 ✔ Actualización automática sin recargar la página
 ✔ Diseño tipo dashboard moderno
 
-🧠 Tecnologías utilizadas
+## 🧠 Tecnologías utilizadas
 
 Python
 
@@ -55,13 +56,13 @@ Respuesta rápida del servidor
 
 Actualización en tiempo real
 
-📊 Datos monitoreados
+## 📊 Datos monitoreados
 
 Uso del CPU (%)
 
 Uso de memoria RAM (%)
 
-🎯 Objetivo del proyecto
+## 🎯 Objetivo del proyecto
 
 Demostrar el uso de:
 
@@ -73,7 +74,7 @@ Arquitectura cliente-servidor
 
 Integración backend + frontend
 
-📌 Posibles mejoras futuras
+## 📌 Posibles mejoras futuras
 
 Gráficas en tiempo real
 
