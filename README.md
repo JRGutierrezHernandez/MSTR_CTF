@@ -1,4 +1,4 @@
-### 🖥️ Monitor del Sistema en Tiempo Real (Python + Web)
+## 🖥️ Monitor del Sistema en Tiempo Real (Python + Web)
 
 Aplicación web que muestra el uso del sistema en tiempo real (CPU y memoria RAM) utilizando un backend en Python con ejecución concurrente mediante hilos.
 
