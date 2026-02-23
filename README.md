@@ -9,11 +9,17 @@ El sistema obtiene información real del equipo y la muestra en un panel web que
 ✔ Monitoreo en tiempo real del CPU
 
 ✔ Monitoreo en tiempo real de la memoria RAM
+
 ✔ Backend en Python con Flask
+
 ✔ Uso de hilos (threading) para monitoreo continuo
+
 ✔ Interfaz web dinámica
+
 ✔ Comunicación cliente-servidor
+
 ✔ Actualización automática sin recargar la página
+
 ✔ Diseño tipo dashboard moderno
 
 ## 🧠 Tecnologías utilizadas
