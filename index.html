@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Monitor del Sistema</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<h1>Monitor del Sistema en Tiempo Real</h1>
+
+<div class="dashboard">
+    <div class="card">
+        <div class="label">CPU</div>
+        <div id="cpu" class="valor">0%</div>
+    </div>
+
+    <div class="card">
+        <div class="label">RAM</div>
+        <div id="ram" class="valor">0%</div>
+    </div>
+</div>
+
+<script>
+async function actualizar(){
+    const r = await fetch("/datos");
+    const d = await r.json();
+
+    cpu.textContent = d.cpu + "%";
+    ram.textContent = d.ram + "%";
+}
+
+setInterval(actualizar,1000);
+actualizar();
+</script>
+
+</body>
+</html>

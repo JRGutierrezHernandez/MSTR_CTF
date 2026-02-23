@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f2027;
+    color: white;
+    text-align: center;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 15px;
+    width: 220px;
+}
